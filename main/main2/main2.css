@@ -1,0 +1,129 @@
+.main2 {
+  width: 100%;
+  height: 550px;
+  background-color: #1F2E35;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main2 h2 {
+  color: #FFF;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.main2 p {
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 10px;
+}
+.main2 .main2-item {
+  width: 65%;
+  height: 332px;
+  margin-top: 50px;
+}
+.main2 .main2-item span {
+  font-size: 24px;
+  color: #02897A;
+}
+.main2 .main2-item div {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.main2 .main2-item aside {
+  width: 100%;
+  height: 1px;
+  margin-top: 22px;
+  margin-bottom: 16px;
+  background-color: #474747;
+}
+.main2 .main2-item .main2-div_p {
+  color: #22343D;
+}
+
+@media (max-width: 1000px) {
+  .main2 {
+    width: 100%;
+    height: 500px;
+    background-color: #1F2E35;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main2 h2 {
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+  }
+  .main2 p {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+@media (max-width: 780px) {
+  .main2 {
+    width: 100%;
+    height: 500px;
+    background-color: #1F2E35;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main2 h2 {
+    color: #FFF;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 9px;
+  }
+  .main2 p {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .main2 span {
+    font-size: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .main2 {
+    width: 100%;
+    height: 500px;
+    background-color: #1F2E35;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main2 h2 {
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 9px;
+  }
+  .main2 p {
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .main2 span {
+    font-size: 17px;
+  }
+}/*# sourceMappingURL=main2.css.map */
